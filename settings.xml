@@ -2,12 +2,11 @@
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
-  <localRepository>/home/unthinkable-lap-0014/Desktop/Repository/</localRepository>
   <servers>
     <server>
       <id>github</id>
       <username>harshchoudhary56</username>
-      <password>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</password>
+      <password>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</password>
     </server>	
   </servers>
   <profiles>
