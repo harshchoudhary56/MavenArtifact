@@ -27,6 +27,6 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: Publish to GitHub Packages Apache Maven
-        run: mvn deploy -s settings.xml # No need to specify full path as it's in the same directory
+        run: mvn deploy -s ../../settings.xml # No need to specify full path as it's in the same directory
         env:
           GITHUB_TOKEN: ${{ secrets.JAVA_TOKEN }} # Use the GitHub token for authentication
